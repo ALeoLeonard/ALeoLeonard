@@ -6,4 +6,4 @@ const Boosted = () => (
   </div>
 )
 
-export default Workout
+export default Boosted
