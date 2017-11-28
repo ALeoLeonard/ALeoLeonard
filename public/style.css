@@ -1,0 +1,389 @@
+html,body { margin:0px; padding:0px }
+
+.landing{
+  background-color: #F9F9F9;
+}
+
+.space {
+  display: block;
+  height: 910px;
+  background-image: url(../public/images/star_pattern.svg);
+  background-color: #26282B;
+  cursor: crosshair;
+  cursor: url(../public/images/cursor.svg) 10.5 5,crosshair;
+}
+
+.CalabiYau {
+   background-color: #F9F9F9;
+}
+
+/*Scroll Bar Styles*/
+/*body::-webkit-scrollbar {
+  width: .75em;
+  height: .75em;
+  background-color: #26282B;
+}
+ 
+body::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px #3B1E78;
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background: linear-gradient(to left, #523392 0%,#772A8D 100%);
+  outline: 1px solid #26282B;
+}*/
+
+button {
+  position: absolute;
+  top: 1px;
+  right: 1px;
+}
+
+aside {
+  position: fixed;
+  background: linear-gradient(to top, #4E5DA5 0%,#694ca5 100%);
+  top: 0;
+  font-family: 'titillium web', san-serif;
+  left: 0;
+  color: #F1C761;
+  width: 50px;
+  height: 100%;
+  border-right: 1px solid rgba(0,0,0,.1);
+  overflow: hidden;
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+  -webkit-transition: -webkit-transform 666ms cubic-bezier(.666,0,.237,1);
+  transition: -webkit-transform 666ms cubic-bezier(.666,0,.237,1);
+  transition: transform 666ms cubic-bezier(.666,0,.237,1);
+  transition: transform 666ms cubic-bezier(.666,0,.237,1),-webkit-transform 666ms cubic-bezier(.666,0,.237,1);
+  cursor: crosshair;
+  cursor: url(/public/images/cursor.svg) 10.5 5,crosshair;
+}
+
+#aside-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+aside ul {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-top: 0px;
+  height: 50px;
+  white-space: nowrap;
+  right: auto;
+  margin-top: 0px;
+  height: 50px;
+  width: 700px;
+  margin-bottom: 0px;
+  -webkit-transform-origin: 0 100%;
+  transform-origin: 0 100%;
+  -webkit-transform: rotate(-90deg) translate(0,100%);
+  transform: rotate(-90deg) translate(0,100%);
+}
+
+
+
+#logo {
+  top: 0;
+  right: 0;
+  background-image: url(../public/images/big_bang.gif);
+  height: 200px;
+  width: 200px;
+  white-space: nowrap;
+  cursor: crosshair;
+  cursor: url(../public/images/cursor.svg) 10.5 5,crosshair;
+}
+
+#about-btn {
+  position: relative;
+  cursor: crosshair;
+  width: 80px;
+  text-align: center;
+  cursor: url(/public/images/cursor_white.svg) 10.5 5,crosshair;
+  -webkit-transform: translate3d(0,-100%,0);
+  transform: translate3d(0,-100%,0);
+  -webkit-transition: -webkit-transform 666ms cubic-bezier(.666,0,.237,1);
+  transition: -webkit-transform 666ms cubic-bezier(.666,0,.237,1);
+  transition: transform 666ms cubic-bezier(.666,0,.237,1);
+  transition: transform 666ms cubic-bezier(.666,0,.237,1),-webkit-transform 666ms cubic-bezier(.666,0,.237,1);
+}
+#about-btn:hover{
+  background-color: #694CA5;
+}
+
+aside ul li {
+  height: 100%;
+  line-height: 50px;
+  display: inline-block;
+}
+
+aside ul li a {
+  border-bottom: none;
+  display: none;
+  color: #8EE067;
+  position: absolute;
+  top: 0;
+  left: 600px;
+  cursor: url(/public/images/cursor_white.svg) 10.5 5,crosshair;
+ }
+
+
+a {
+  color: #222;
+  text-decoration: none;
+  outline: 0;
+  cursor: url(/public/images/cursor_white.svg) 10.5 5,crosshair;
+}
+
+/*Workout*/
+.vitruvian {
+  background:url(../public/images/vitruvian_man.jpeg) no-repeat center;
+  background-size: cover;
+  display: block;
+  margin: 0 3em;
+  height: 50em;
+  width: 100%;
+}
+
+/*Camping Photo*/
+
+.marquee {
+  background:url(../public/images/Pano.jpg) no-repeat right;
+  background-size: cover;
+}
+
+.cover {
+    background-size: cover !important;
+}
+
+.bt {
+    border-top-style: solid;
+    border-top-width: 1px;
+}
+
+.b--black-10 {
+    border-color: rgba(0, 0, 0, .1);
+}
+
+.cf:before, .cf:after {
+    content: " ";
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
+
+.dn {
+    display: none;
+}
+
+.db {
+    display: block;
+}
+
+.dt {
+    display: table;
+}
+
+.dtc {
+    display: table-cell;
+}
+
+.fl {
+    float: left;
+    _display: inline;
+}
+
+.serif {
+    font-family: georgia, times, serif;
+}
+
+.helvetica {
+    font-family: 'helvetica neue', helvetica, sans-serif;
+}
+
+.fw6 {
+    font-weight: 600;
+}
+
+.fw9 {
+    font-weight: 900;
+}
+
+.vh-100 {
+    height: 100vh;
+}
+
+.lh-title {
+    line-height: 1.25;
+}
+
+.lh-copy {
+    line-height: 1.5;
+}
+
+.mw6 {
+    max-width: 32rem;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.black {
+    color: #F1C761;
+}
+
+.bg-light-pink {
+    background-color: #4E5DA5;
+}
+
+.pl2 {
+    padding-left: .5rem;
+}
+
+.pr1 {
+    padding-right: .25rem;
+}
+
+.pb3 {
+    padding-bottom: 1rem;
+}
+
+.pb5 {
+    padding-bottom: 4rem;
+}
+
+.pv4 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.ph3 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.f2 {
+    font-size: 2.25rem;
+}
+
+.f4 {
+    font-size: 1.25rem;
+}
+
+.f5 {
+    font-size: 1rem;
+}
+
+.f6 {
+    font-size: .875rem;
+}
+
+.measure {
+    max-width: 30em;
+}
+
+.center {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.v-mid {
+    vertical-align: middle;
+}
+
+@media screen and (min-width: 30em) {
+    .fw4-ns {
+        font-weight: 400;
+    }
+}
+
+@media screen and (min-width: 30em) and (max-width: 60em) {
+    .ph4-m {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .f3-m {
+        font-size: 1.5rem;
+    }
+
+    .f5-m {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width: 60em) {
+    .dt-l {
+        display: table;
+    }
+
+    .dtc-l {
+        display: table-cell;
+    }
+
+    .w-50-l {
+        width: 50%;
+    }
+
+    .pl0-l {
+        padding-left: 0;
+    }
+
+    .pl2-l {
+        padding-left: .5rem;
+    }
+
+    .pr0-l {
+        padding-right: 0;
+    }
+
+    .pr2-l {
+        padding-right: .5rem;
+    }
+
+    .pr3-l {
+        padding-right: 1rem;
+    }
+
+    .pv4-l {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .ph5-l {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+
+    .f-subheadline-l {
+        font-size: 5rem;
+    }
+
+    .f1-l {
+        font-size: 3rem;
+    }
+
+    .f4-l {
+        font-size: 1.25rem;
+    }
+
+    .measure-l {
+        max-width: 30em;
+    }
+}
